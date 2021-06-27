@@ -1,1 +1,1 @@
-Aqui vai alguns códigos da escola e alguns códigos que faço!
+Aqui vai os exercícios da escola que eu faço!
