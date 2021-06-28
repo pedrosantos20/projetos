@@ -141,9 +141,7 @@
 <td><input type = "number" name="a3" value="0">&nbsp Batata G.</td>
 </tr>
 <tr>
-<td><input type = "number" name="a4" value="0">&nbsp Anéis de Cebola.</td>
-<td>&nbsp</td>
-<td>&nbsp</td>
+
 <td></td>
 <td>&nbsp</td>
 <td>&nbsp</td>
