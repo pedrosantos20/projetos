@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../img/1.jpg);
+}
+.cadastro h1{
+    color: white;
+}
+.cadastro p{
+    color: white;
+}
+.cadastro label{
+    color: white;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu {
+    text-align: center;
+}
+.menu ul li a {
+	Font-family: Cambria, Georgia, serif;
+	font-size: 22px;
+    display: block;
+    color: whitesmoke;
+    padding: 15px 15px;
+}
