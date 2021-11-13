@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <link href="../css/login.css" rel="stylesheet" />
+   
+    <title> Login </title>
+</head>
+<header class="header">
+    <nav class="menu">
+    <ul>
+        <li><a type="button" class="efeito efeito1" href="../index.html"><b>Página Principal</b></a></li>
+        <li><a type="button" class="efeito efeito1" href="login.html"><b>Login</b></a></li>
+        <li><a type="button" class="efeito efeito1" href="clientes.html"><b>Registrar-se</b></a></li>
+        <li><a type="button" class="efeito efeito1" href="produtos.html"><b>Matrizes</b></a></li>
+    </ul>
+    </nav>
+        </header>
+<body>
+    <div class="container">
+    <form class = "form" action="">
+        <script src="../js/validasenha.js"></script>
+        <div class="card">
+            <h1> Faça o seu Login</h1>
+<div class="label-float">
+        <label>  Email </label>
+        <br>
+        <input type='email' name="Email" placeholder="Digite seu email">
+        </div>
+        <div class="label-float">
+        <div class ="card-info">
+        <label> Senha </label>
+        <br>
+        <input type="password" id = "senha" onkeyup = "verifica()" type="password" name="Senha" placeholder="Digite sua senha"> 
+        <table id = "mostra"> </table>
+        </div>
+        </div>
+        <div class ="card-info">
+        <label><input type="checkbox"> Lembrar de mim </label>
+        </div>
+        <div class ="card-info">
+            <div class='justify-center'>
+       <center><button type = "submit">Entrar</button> </center>
+       </div>
+        </div>
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
