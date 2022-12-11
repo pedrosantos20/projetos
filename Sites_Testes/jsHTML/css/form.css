@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+}
+.menu {
+    background-color:black;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+	Font-family: Cambria, Georgia, serif;
+	font-size: 22px;
+    display: block;
+    color: #FFFFFF;
+    padding: 15px 15px;
+}
+#titulo{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 3%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color:black;
+    margin-left: 0%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color:white;
+    font-family: sans-serif;
+    justify-content: center;
+   
+}
+.container{
+    margin-left: 37%;
+    margin-top: 2%;
+}
+input, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+fieldset.grupo .campo{
+     float: left;
+     margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo input[type="number"]{
+    padding: 0.2em;
+    border: 1px solid rgb(167, 167, 167);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+
+button{
+    background-color: white;
+    border-color: black;
+    color: black;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+  }
+  
+  button:hover{
+    background-color: black;
+    color: white;
+  }
+

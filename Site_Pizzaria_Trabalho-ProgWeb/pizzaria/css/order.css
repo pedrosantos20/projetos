@@ -1,0 +1,26 @@
+a:link {
+    color: red;
+ }
+ a:visited {
+     color: red;
+ }
+ .orderbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ body{
+    text-align: center;
+ }
+ .box{
+    width: 40%;
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+ }

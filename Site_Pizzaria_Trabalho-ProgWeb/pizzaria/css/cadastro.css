@@ -1,0 +1,31 @@
+.cadastro{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.cadastro h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        border-bottom: 6px solid red;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid red;
+}
+.btn{
+    width: 50%;
+    font-size: 20px;
+}
+a:link {
+    color: red;
+ }
+ a:visited {
+     color: red;
+ }
